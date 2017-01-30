@@ -1,0 +1,32 @@
+{
+  "name": "foose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.4.1",
+    "browser-sync": "2.15.0",
+    "gulp": "3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.2.0"
+  },
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caneklis/FooseShoes.git"
+  },
+  "author": "Caneklis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caneklis/FooseShoes/issues"
+  },
+  "homepage": "https://github.com/Caneklis/FooseShoes#readme"
+}

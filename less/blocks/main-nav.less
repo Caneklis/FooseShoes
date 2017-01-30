@@ -1,0 +1,31 @@
+.main-nav {
+  background-color: #fff;
+  width: 760px
+}
+
+.main-nav__list {
+  display: flex;
+}
+
+.main-nav__item {
+  padding: 18px 22px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.main-nav__item--active {
+  
+  a {
+    color: @bg-price;
+  }
+}
+
+.main-nav__link {
+  font-size: 16px;
+  line-height: 25px;
+  color: @bg-menu;
+  
+  &:hover {
+    color: @bg-price;
+  }
+}
